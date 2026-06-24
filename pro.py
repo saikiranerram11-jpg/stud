@@ -7,11 +7,11 @@ while True:
 
     choice = input("Enter your choice: ")
 
-    if choice == "1":
+    if choice == "":
         emp_id = input("Enter Employee ID: ")
         name = input("Enter Employee Name: ")
         employees[emp_id] = name
-        print("Employee Added Successfully!")
+        print("Employee Successfully!")
 
     elif choice == "2":
         print("\nEmployee List:")
