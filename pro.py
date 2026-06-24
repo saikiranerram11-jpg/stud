@@ -18,7 +18,7 @@ while True:
         for emp_id, name in employees.items():
             print(emp_id, "-", name)
 
-    elif choice == "3":
+    elif choice == "":
         print("Exiting...")
         break
 
