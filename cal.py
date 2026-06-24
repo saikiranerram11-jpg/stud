@@ -5,12 +5,12 @@ num3 = float(input("Enter third number: "))
 if operator == "+":
     print("Result =", num1 + num2 + num3)
 elif operator == "-":
-    print("Result =", num1 - num2 - num3)
+    print("Result =", num1 - num2)
 elif operator == "*":
-    print("Result =", num1 * num2 * num3)
+    print("Result =", num1 * num2)
 elif operator == "/":
     if num2 != 0:
-        print("Result =", num1 / num2 / num3)
+        print("Result =", num1 / num2)
     else:
         print("Cannot divide by zero")
 else:
